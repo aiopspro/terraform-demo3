@@ -64,13 +64,13 @@ If validation passes successfully, you’re ready to plan and apply.
 Generate a plan to preview what Terraform will create:
 
 ```bash
-terraform plan -out "s3.tfplan"
+terraform plan -out "s3-local.tfplan"
 ```
 
 If everything looks good, apply the plan to create your resources:
 
 ```bash
-terraform apply "s3.tfplan"
+terraform apply "s3-local.tfplan"
 ```
 
 Terraform will prompt for confirmation — type **`yes`** to proceed.
